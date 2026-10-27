@@ -1,5 +1,5 @@
 # lls-cc-mods
-**Lua Language Service - ComputerCraft - Mod peripheral additions**
+**Lua Language Server - ComputerCraft - Mod peripheral additions**
 
 Intended to be used with:\
     [VS Code](https://code.visualstudio.com/)\

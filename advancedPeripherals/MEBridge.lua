@@ -34,7 +34,7 @@ function MEBridge.exportItemToPeripheral(item, container) end
 ---@return string err An error message.
 ------
 ---[Official Documentation](https://docs.advanced-peripherals.de/0.7/peripherals/me_bridge/#getitem)
-function MEBridge.getitem(item) end
+function MEBridge.getItem(item) end
 
 ---@class advancedPeripherals.MEItem
 ---@field fingerprint string|nil A unique fingerprint which identifies the item to craft
@@ -51,4 +51,3 @@ function MEBridge.getitem(item) end
 ------
 ---[Official Documentation](https://docs.advanced-peripherals.de/0.7/peripherals/me_bridge/#listitems)
 function MEBridge.listItems() end
-

@@ -1,3 +1,5 @@
+--[[
+
 ---@meta
 
 ---@diagnostic disable: duplicate-doc-alias
@@ -27,3 +29,4 @@
 ---|ccTweaked.peripherals.WiredModem
 ---|advancedPeripherals.MEBridge
 ---|mekanism.Oredictionificator
+--]]

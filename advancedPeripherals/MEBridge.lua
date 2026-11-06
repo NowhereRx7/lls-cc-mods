@@ -25,7 +25,7 @@ MEBridge = {}
 ---@return number count The number of the item exported into the container.
 ---@return string err An error message.
 ------
----[Official Documentation](https://docs.advanced-peripherals.de/0.7/peripherals/me_bridge/#getitem)
+---[Official Documentation](https://docs.advanced-peripherals.de/0.7/peripherals/me_bridge/#exportitemtoperipheral)
 function MEBridge.exportItemToPeripheral(item, container) end
 
 ---Returns a table with information about the item type in the system.

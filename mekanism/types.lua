@@ -10,3 +10,9 @@
 ---@field nbt string|nil Any NBT of the item, in Command JSON format
 
 ---@class mekanism.LargeResourceStack: mekanism.ItemStack
+
+---@class mekanism.Frequency No idea if this is correct in newer versions.
+---@field key string Name
+---@field ["public"] boolean Is public.
+
+---@class mekanism.InventoryFrequency: mekanism.Frequency

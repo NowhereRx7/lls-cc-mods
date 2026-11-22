@@ -17,11 +17,11 @@ function Oredictionificator.addFilter(filter) end
 function Oredictionificator.getFilters() end
 
 ---Get the contents of the input slot.
----@return mekanism.ItemStack item 
+---@return mekanism.LargeResourceStack item 
 function Oredictionificator.getInputItem() end
 
 ---Get the contents of the output slot.
----@return mekanism.ItemStack item 
+---@return mekanism.LargeResourceStack item 
 function Oredictionificator.getOutputItem() end
 
 ---Removes a filter.

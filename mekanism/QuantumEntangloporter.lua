@@ -48,11 +48,11 @@ function QuantumEntangloporter.getBufferItem() end
 function QuantumEntangloporter.getEnvironmentalLoss() end
 
 ---Lists public frequencies
----@return InventoryFrequency[] return List (Table (InventoryFrequency))
+---@return mekanism.InventoryFrequency[] return List (Table (InventoryFrequency))
 function QuantumEntangloporter.getFrequencies() end
 
 ---Requires a frequency to be selected
----@return InventoryFrequency return Table (InventoryFrequency)
+---@return mekanism.InventoryFrequency return Table (InventoryFrequency)
 function QuantumEntangloporter.getFrequency() end
 
 ---Get the heat capacity of the frequency in Joules per Kelvin. This number can be thought of as the specific heat of the handler (specific heat x mass of the handler).

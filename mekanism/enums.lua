@@ -1,0 +1,71 @@
+---@meta
+
+---@alias mekanism.DataType
+---| '"NONE"'
+---| '"INPUT"'
+---| '"INPUT_1"'
+---| '"INPUT_2"'
+---| '"OUTPUT"'
+---| '"OUTPUT_1"'
+---| '"OUTPUT_2"'
+---| '"INPUT_OUTPUT"'
+---| '"ENERGY"'
+---| '"EXTRA"'
+
+---@alias mekanism.common.content.miner.ThreadMinerSearchState
+---| '"IDLE"'
+---| '"SEARCHING"'
+---| '"PAUSED"'
+---| '"FINISHED"'
+
+---@alias mekanism.EnumColor
+---| '"BLACK"'
+---| '"DARK_BLUE"'
+---| '"DARK_GREEN"'
+---| '"DARK_AQUA"'
+---| '"DARK_RED"'
+---| '"PURPLE"'
+---| '"ORANGE"'
+---| '"GRAY"'
+---| '"DARK_GRAY"'
+---| '"INDIGO"'
+---| '"BRIGHT_GREEN"'
+---| '"AQUA"'
+---| '"RED"'
+---| '"PINK"'
+---| '"YELLOW"'
+---| '"WHITE"'
+---| '"BROWN"'
+---| '"BRIGHT_PINK"',
+
+---@alias mekanism.FilterType
+---| '"MINER_ITEMSTACK_FILTER"'
+---| '"MINER_MODID_FILTER"'
+---| '"MINER_TAG_FILTER"'
+---| '"OREDICTIONIFICATOR_ITEM_FILTER"'
+---| '"QIO_ITEMSTACK_FILTER"'
+---| '"QIO_MODID_FILTER"'
+---| '"QIO_TAG_FILTER"'
+---| '"SORTER_ITEMSTACK_FILTER"'
+---| '"SORTER_MODID_FILTER"'
+---| '"SORTER_TAG_FILTER"'
+
+---@alias mekanism.RelativeSide
+---| '"FRONT"'
+---| '"LEFT"'
+---| '"RIGHT"'
+---| '"BACK"'
+---| '"TOP"'
+---| '"BOTTOM"'
+
+---@alias mekanism.SecurityMode
+---| '"PUBLIC"'
+---| '"PRIVATE"'
+---| '"TRUSTED"'
+
+---@alias mekanism.TransmissionType
+---|'"ENERGY"'
+---|'"FLUID"'
+---|'"CHEMICAL"'
+---|'"ITEM"'
+---|'"HEAT"'

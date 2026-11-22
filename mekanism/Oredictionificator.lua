@@ -1,35 +1,11 @@
 ---@meta
 
----@class mekanism.Oredictionificator
+---@class mekanism.Oredictionificator: mekanism.MachinewithSideConfigurationComponent
 ---Methods for Mekanism's Oredictionificator.
 ------
----[Official Documentation](https://mekanism.github.io/computer_data/10.4.0.html)
+---[Official Documentation](https://mekanism.github.io/computer_data/10.7.0.html)
+---[Repository](https://github.com/mekanism/Mekanism)
 Oredictionificator = {}
-
----@alias mekanism.FilterType
----| '"MINER_ITEMSTACK_FILTER"'
----| '"MINER_MODID_FILTER"'
----| '"MINER_TAG_FILTER"'
----| '"OREDICTIONIFICATOR_ITEM_FILTER"'
----| '"QIO_ITEMSTACK_FILTER"'
----| '"QIO_MODID_FILTER"'
----| '"QIO_TAG_FILTER"'
----| '"SORTER_ITEMSTACK_FILTER"'
----| '"SORTER_MODID_FILTER"'
----| '"SORTER_TAG_FILTER"'
-
----@class mekanism.IFilter
----@field enabled boolean Whether the filter is enabled when added to a device
----@field type mekanism.FilterType The type of filter in this structure.
-
----@class mekanism.ItemStack
----@field count number The count of items in the stack
----@field name string  	The Item's registered name
----@field nbt string Any NBT of the item, in Command JSON format
-
----@class mekanism.OredictionificatorItemFilter: mekanism.IFilter
----@field selected string The selected output item's registered name. Optional for adding a filter
----@field target string The target tag to match (input)
 
 ---Adds a filter.
 ---@param filter mekanism.OredictionificatorItemFilter Filter to add

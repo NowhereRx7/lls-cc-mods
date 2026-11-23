@@ -9,14 +9,6 @@
 ---[Official Documentation](https://docs.advanced-peripherals.de/0.7/peripherals/me_bridge/)
 MEBridge = {}
 
----@class advancedPeripherals.ItemFilter
----@field fingerprint string? A unique fingerprint which identifies the item to craft
----@field name string? The registry name of the item [start with # to search tags]
----@field components table? Component data
----@field fromSlot number? Slot of the source inventory
----@field toSlot number? Slot of the destination inventory
----@field count number? The amount to move
-
 ---Similar to exportItem() it exports an item to a container which is connected to the peripheral network.
 ---container should be the exact name of the container peripheral on the network.
 ---Returns the number of the item exported into the container.
